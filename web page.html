@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Acadmy </title>
+    <link rel="stylesheet" href="D:\HTML Project\Manu Bar\stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+ <body>
+     <nav>
+         
+        <ul class="main" > 
+            <!-- # it is the main class of menu bar that singal ul  -->
+        <h4>
+            
+          
+            <!-- it is the create of the side menu bar then of the list and ancar tag with useinig of the div tag  before span tag for 
+            the line divition  method (div) that are the java script of the menu i-con-->
+            <li><a href="" id="menu">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                </div>
+                
+                <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                
+                <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+                
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+            </a></li>                
+              
+  <!-- size of hading befor of the  are use from li-list ,a- linking tag that the span- icon from use in menu bar  -->
+            <li><a href=""><span class="fa fa-home"></span>HOME</a> </li>
+       
+            <!-- it is the ul of the menu bar of under elemant of list-->
+            <li><a href=""><span class="fa fa-user"></span>USER</a>                
+<!-- it is the ul of the menu bar of under elemant of list of serices of the littie menu of the class-->
+                <ul>
+                    <li><a href=""><span class="fa fa-plus"></span> Add</a></li>
+                    <li><a href=""><span class="fa fa-edit"></span> Edit</a></li>
+                    <li><a href=""><span class="fa fa-trash"></span> Delete</a></li>
+                </ul>
+            </li>
+
+<!-- that are the main handing of the manu bar -->
+<li><a href=""><span class="fa fa-wrench"></span>SERICES</a>
+<!-- it is the ul of the menu bar of under elemant of list of serices of the littie menu of the class-->
+                <ul>
+                    <li><a href=""><span class="fa fa-desktop"></span>Web Designig</a></li>
+                    <li><a href=""><span class="fa fa-android"></span>Android</a></li>
+                    <li><a href=""><span class="fa fa-laptop"></span>Web App</a></li>
+                    <li><a href=""><span class="fa fa-database"></span>Database</a></li>
+                </ul>
+            </li>
+   <!-- that are the main handing of the manu bar -->        
+            <li><a href=""><span class="fa fa-users"></span>ABOUT US</a></li>
+            <li><a href=""><span class="fa fa-address-card-o"></span>CONTECT US</a></li>
+            <li><a href=""><span class="fa fa-sing"></span>SING UP</a></li>
+            <li><a href=""><span class="fa fa-user"></span>LOGIN</a></li>
+        
+<!-- it is the such bar and user id bar and password of the creator of The login bar there of the form and input tag  of the menu bar  -->
+            <div class="topnav" id="surch ">
+                <a class="active" href="#home"></a>
+                <a href="#about"></a>
+                <a href="#contact"></a>
+                <div class="login-container">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="psw">
+                    <button type="submit">Login</button>
+                  </form>
+                </div>
+              </div>
+
+
+        </h4>
+        </ul>
+   </nav>
+</body>
+</html>

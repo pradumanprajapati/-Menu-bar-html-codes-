@@ -1,0 +1,126 @@
+/* that are the main manu bar of the size update in the zero */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* that are the menu bar of the mein body structure */
+body{
+    background-image: url("PPPPP.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Used to enable scrolling  of the body */
+ body {
+    height: 3000px;
+  }
+
+/*   HTML element represents a section of a page of the link current document or to other documents.
+that (nav tag) navigation sections are menus, tables of contents, */
+
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: #0005;
+    margin-top: 20px;
+}
+menu{
+    border-radius: 5px;
+    width: 20px;
+}
+/* it is the singal manu bar tahr line of manu this main content */
+.main{
+    margin-left: 20px;
+}
+
+/* that is the ul-unordered lists (<ul>) - the list items are marked with bullets , and il-list of the text elemant */
+
+ul li{
+    width: 120px;
+    height: 40px;
+    background-color: #0005;
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 10px;
+}
+
+/* ul and li text of the color befour of the hover- of the text background color  */
+ul li:hover {
+    background-color: green;
+
+}
+
+/*  there are the text of the unordered of the list of the color and dispaly block*/
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* ul and li text of the color befour of the hover- of the text background color  */
+
+ul li:hover>ul{
+    display: block;
+}
+
+/* unordered with unodered given of the display text */
+ul ul {
+    display: none
+}
+
+/* The <span> tag is an inline container used to mark up a part of a text, or a part of a 
+document with of the margining of the text */
+span{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* menu bar ko lagne our roteted */
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: bisque;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color:rgba(238, 28, 28, 0.333);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #000500;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
