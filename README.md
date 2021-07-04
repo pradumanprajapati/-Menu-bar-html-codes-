@@ -1,0 +1,2 @@
+# -Menu-bar-html-codes-
+Each item in the menubar represents a section of a web site for a Dr. A.P.J. Abdul Kalam Technical University , Lucknow university and opens a submenu containing menu items that link to pages within that section. include: vs code Editor Menubar  Example :-of a menubar that presents text styling actions similar to an editor application. of the computer in the use of editor of vs code and python 
